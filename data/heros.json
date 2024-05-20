@@ -1,0 +1,28 @@
+[
+
+{"hero": "Reinhardt", "role": "tank", "emoji": "<:reinhardt:1239424052020379670>"},
+{"hero": "Roadhog", "role": "tank", "emoji": "<:roadhog:1239424053404635216>"},
+{"hero": "Dva", "role": "tank", "emoji": "<:dva:1239424034425278544>"},
+{"hero": "Zarya", "role": "tank", "emoji": "<:zarya:1239424328035205120>"},
+{"hero": "Sigma", "role": "tank", "emoji": "<:sigma:1239424277896495186>"},
+{"hero": "Winston", "role": "tank", "emoji": "<:winston:1239424062850207744>"},
+
+{"hero": "Soldier 76", "role": "dps", "emoji": "<:soldier76:1239424297278115840>"},
+{"hero": "Widowmaker", "role": "dps", "emoji": "<:widowmaker:1239424312167895121>"},
+{"hero": "Tracer", "role": "dps", "emoji": "<:tracer:1239424059377193090>"},
+{"hero": "Junkrat", "role": "dps", "emoji": "<:junkrat:1239424038305271828>"},
+{"hero": "Genji", "role": "dps", "emoji": "<:genji:1239424035897737247>"},
+{"hero": "Cassidy", "role": "dps", "emoji": "<:cassidy:1239424351602999367>"},
+{"hero": "Sojourn", "role": "dps", "emoji": "<:sojourn:1239424056093052959>"},
+{"hero": "Hanzo", "role": "dps", "emoji": "<:hanzo:1239424037109760030>"},
+{"hero": "Reaper", "role": "dps", "emoji": "<:reaper:1239424050632200252>"},
+
+{"hero": "Ana", "role": "support", "emoji": "<:ana:1239425673077194775>"},
+{"hero": "Baptiste", "role": "support", "emoji": "<:baptiste:1239424070282379264>"},
+{"hero": "Mercy", "role": "support", "emoji": "<:mercy:1239424047973138443>"},
+{"hero": "Moira", "role": "support", "emoji": "<:moira:1239424049168257044>"},
+{"hero": "Lucio", "role": "support", "emoji": "<:lucio:1239424041341685760>"},
+{"hero": "Kiriko", "role": "support", "emoji": "<:kiriko:1239424039492255745>"},
+{"hero": "Zenyatta", "role": "support", "emoji": "<:zenyatta:1239424066381942805>"}
+
+]
