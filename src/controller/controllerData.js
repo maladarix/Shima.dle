@@ -47,7 +47,16 @@ function checkResult() {
 
 function searchBestStreak() {
   let listeJoueurs = readData("players")
-  return listeJoueurs.sort((a, b) => a.streak < b.streak ? 1 : -1)[0]
+  let bestStreak = listeJoueurs.sort((a, b) => a.streak < b.streak ? 1 : -1)[0].streak
+  let listeBestPlayers = []
+
+  listeJoueurs.forEach(joueur => {
+    if(joueur.streak == bestStreak) {
+      listeBestPlayers.push(joueur)
+    }
+  });
+
+  return listeBestPlayers[Math.floor(Math.random() * listeBestPlayers.length)]
 }
 
 module.exports = {readData, writeData, newDayCheck, checkResult, searchBestStreak}
