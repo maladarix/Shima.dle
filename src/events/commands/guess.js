@@ -68,7 +68,11 @@ module.exports = {
         player.bestStreak = player.streak
       }
       player.nbGuess = Math.round(player.nbGuess + 1)
-      player.multiplicator += 0.1
+      if(player.multiplicator < 3) {
+        player.multiplicator += 0.1
+      }else if(player.multiplicator > 3) {
+        player.multiplicator = 3
+      }
       player.isDone = true
       player.result = true
       player.lastPlay = DateTime.now().setZone("Europe/Paris").toLocaleString()

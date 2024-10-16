@@ -37,7 +37,7 @@ function checkResult() {
   let listeGoodPlayers = ""
 
   listeJoueurs.forEach(player => {
-    if(player.guess.length <= 3) {
+    if(player.result == true) {
       listeGoodPlayers += `${player.displayName}\n`
     }
   });

@@ -24,7 +24,7 @@ setInterval(() => {
     let todayGuess = findTodayGuess(readData("history")[4].guessId)
     bot.channels.cache.get(process.env.channelId).send({embeds: [new Discord.EmbedBuilder()
       .setTitle(`Le Shimada du jour était: **${todayGuess.displayName}**`)
-      .setDescription(`Bravo à ceux qui ont trouvé en 3 coups et moins:\n${goodPlayers}\n\n**${bestStreakPlayer.displayName}** est en streak de **${bestStreakPlayer.streak}** 🔥`)
+      .setDescription(`Bravo à ceux qui ont trouvé:\n${goodPlayers}\n\n**${bestStreakPlayer.displayName}** est en streak de **${bestStreakPlayer.streak}** 🔥`)
       .setFooter({text: "Le Shimada du jour a été réinitialisé"})
       .setThumbnail(todayGuess.img)
       .setColor("Gold")
@@ -45,7 +45,7 @@ setInterval(() => {
     writeData("history", history)
   }
 }, 1000);
-a
+
 setInterval(() => {
   let topic = "Classement:\n"
   let listeJoueurs = readData("players")
